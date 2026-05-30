@@ -1,4 +1,4 @@
-# Maria Luiza Ottoni Architecture Portfolio
+﻿# Maria Ottoni Architecture Portfolio
 
 Static portfolio website generated from `2026.05.30 PORTFOLIO_Maria-Ottoni.pdf`.
 
@@ -10,7 +10,7 @@ Static portfolio website generated from `2026.05.30 PORTFOLIO_Maria-Ottoni.pdf`.
 ```bash
 git init
 git add .
-git commit -m "Build Maria Luiza Ottoni portfolio site"
+git commit -m "Build Maria Ottoni portfolio site"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/maria-ottoni-portfolio.git
 git push -u origin main
@@ -18,9 +18,9 @@ git push -u origin main
 
 3. In GitHub, open Settings -> Pages and choose `Deploy from a branch`, `main`, `/root`.
 
-## Optional Netlify Forms
+## Contact Form Recommendation
 
-The contact form includes `data-netlify="true"`. On Netlify, deploy the repo and forms will be detected automatically. For GitHub Pages, replace the form `action` with a Formspree endpoint.
+For GitHub Pages, Formspree is the simplest option: create a free form at https://formspree.io, verify the destination inbox, then replace the contact form `action` with the Formspree endpoint. Netlify Forms is also supported if the site is deployed on Netlify instead of GitHub Pages.
 
 ## Image Builds
 

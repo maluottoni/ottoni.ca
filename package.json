@@ -1,4 +1,4 @@
-{
+﻿{
   "scripts": {
     "build:images": "node tools/optimize-images.mjs",
     "serve": "npx http-server . -p 8080"
