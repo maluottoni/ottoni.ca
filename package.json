@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build:images": "node tools/optimize-images.mjs",
+    "serve": "npx http-server . -p 8080"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "http-server": "^14.1.1"
+  }
+}
