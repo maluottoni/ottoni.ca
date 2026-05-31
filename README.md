@@ -34,3 +34,16 @@ npm run build:images
 ## Notes
 
 The full source portfolio PDF is larger than GitHub's 100 MB regular-file limit, so it is not committed. The site includes a lightweight CV PDF and downloadable per-project PDF excerpts instead. The PDF table of contents names Kitchener Slender and Housing (R)Evolution, but full project-detail pages for those entries were not present in the extractable page sequence. They are not listed as project pages to avoid inventing content.
+
+
+### TODO:
+
+instead of: Expandable images which carousel zoom, make gallery not display in side by side gride but as whole width
+Align title of project cards on home page
+on C:\Users\Alexandre\Documents\Portfolio_Website\projects\erb-residential.html we should align the <uL> so its max horizontal width doesn't exceed the paragraph preceeding it. 
+
+Clearly mark the ABA owned and third party companies sourced material as it is marked on portfolio and resume
+
+Adjacent work images are not referencing correctly after we~ve done some updates on the projects, bcs there is no single soure of control of a project info the project info updated on home page tile and as adjacent work missmatch
+
+denver missing middle actual project page implementation should be a plain pdf view of assets\images\projects\denver-missing-middle\2025.10.10 Denver Competition Boards_4 pager.pdf instead of bloated html
