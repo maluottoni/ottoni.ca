@@ -35,7 +35,7 @@ main { min-height: 70vh; }
 .quick-links a, .button { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: .7rem 1rem; background: var(--ink); color: var(--paper); text-decoration: none; border: 1px solid var(--ink); }
 .quick-links a:nth-child(2), .quick-links a:nth-child(3) { background: transparent; color: var(--ink); }
 .hero-media { margin: 0; }
-.hero-image { aspect-ratio: 4 / 3; object-fit: cover; }
+.hero-image { object-fit: cover; }
 figcaption { color: var(--muted); font-size: .88rem; margin-top: .55rem; }
 .section-header { padding: 2rem 0 1rem; }
 .section-header h2, .timeline-block h2, .skills-grid h2, .skills-heading h2, .table-block h2, .section-kicker h2 { margin: 0; font-size: clamp(1.55rem, 2.7vw, 2.45rem); line-height: 1.1; font-weight: 520; }
